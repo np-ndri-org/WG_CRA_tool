@@ -48,5 +48,4 @@ $ conda install conda-forge::python-cdo
 ###
 $ conda install -c conda-forge wxpython
 ###
-
-
+WGEN installation guide inside CODES/WGEN/read.me
