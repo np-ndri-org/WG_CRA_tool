@@ -3,7 +3,7 @@ Weather Generator and Climate Change Scenario Generator for Climate Risk Assessm
 ### Requirements for WECCS-Gen tools
 Linux Operating system - ubuntu  
 ### miniconda 
-1. Install minicondo (https://docs.conda.io/projects/miniconda/en/latest)
+1.Install minicondo (https://docs.conda.io/projects/miniconda/en/latest)
    ### 
    $ mkdir -p ~/miniconda3
    ### 
@@ -36,10 +36,28 @@ $ conda install -c conda-forge matplotlib cartopy jupyterlab
 ###
 $ conda install -c conda-forge xesmf
 ###
-4.Install CDO (python version)
+4.Install xrft
+$ conda install -c conda-forge xrft
+###
+5.Install CDO (python version)
 ###
 $ conda install conda-forge::python-cdo
 ###
-5.Install xrft
+6.Install wxpython
+###
+$ conda install -c conda-forge wxpython
+###
+7.Download the WECCS-Gen tool via (https://ndrinepal-my.sharepoint.com/:u:/g/personal/wcp_ndri_org_np/EZS67dg8hw1GvZuRWJrbU9kB18VJcSPz6pXAet1PiHGw0w?e=FvfmIE)
+###
+a.For this copy the downloaded WECCS-Gen tool from above step to working directory (any) extract the zip files
+###
+b.Change directory for the ubuntu to “working directory/WG_CRA/CODES/WGEN” by:
+###
+$ cd ‘working directory/WG_CRA/CODES/WGEN’
+###
+c.Install module for weather generator with (make sure you have spyder-env activated step b):
+###
+python setup.py install --user
+
 
 
