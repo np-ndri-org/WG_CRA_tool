@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: WGEN
+Version: 0.1.0
+Summary: Weather Generator for Climate Risk Assessment
+Home-page: UNKNOWN
+Author: Dibesh Shrestha
+Author-email: dibeshshrestha@live.com
+License: UNKNOWN
+Description: Weather Generator for Climate Risk Assessment
+        Test 1.0 Beta version
+        k-NN based multisite weather generator
+        Climate Change Scenario Generator
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
