@@ -16,7 +16,8 @@ Linux Operating system - ubuntu
    $ ~/miniconda3/bin/conda init bash
    ### 
    $ ~/miniconda3/bin/conda init zsh
-### create new environment and install Spyder (IDE), python version less than 3.12 is required 
+### create new environment and install Spyder (IDE) 
+### python version < 3.12 is required 
 $ conda create -c conda-forge -n spyder-env "python>=3.11,<3.12" spyder numpy scipy pandas matplotlib sympy cython
 ###
 2.Install Spyder ( https://docs.spyder-ide.org/current/installation.html)
