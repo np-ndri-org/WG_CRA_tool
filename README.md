@@ -2,8 +2,8 @@
 Weather Generator and Climate Change Scenario Generator for Climate Risk Assessment
 # Requirements for WECCS-Gen tools
 Linux Operating system - ubuntu  
-# Libraries 
-1. Install minicondo (https://docs.conda.io/projects/miniconda/en/latest)
+# miniconda 
+Install minicondo (https://docs.conda.io/projects/miniconda/en/latest)
    # make directory
    $ mkdir -p ~/miniconda3
    # wget 
@@ -15,4 +15,6 @@ Linux Operating system - ubuntu
    # initialize if bash shell
    $ ~/miniconda3/bin/conda init bash
    # initialize if zsh shell
-   $ ~/miniconda3/bin/conda init zsh 
+   $ ~/miniconda3/bin/conda init zsh
+#
+$ conda create -c conda-forge -n spyder-env "python>=3.11,<3.12" spyder numpy scipy pandas matplotlib sympy cython
