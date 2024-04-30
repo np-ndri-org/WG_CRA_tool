@@ -49,3 +49,11 @@ $ conda install conda-forge::python-cdo
 $ conda install -c conda-forge wxpython
 ###
 WGEN installation guide inside CODES/WGEN/readme.md
+###
+To start WG_CRA_tool
+###
+$ conda activate spyder-env
+###
+$ spyder
+### 
+Open script CODES/WG_CRA2.py and run 
